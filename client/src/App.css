@@ -33,3 +33,10 @@ div.post{
 div.post div.image{
   width: 40%
 }
+div.post p.info{
+  margin:0;
+  color:#888;
+  font-size: .7rem;
+  font-weight: bold;
+
+}

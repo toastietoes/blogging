@@ -16,7 +16,11 @@ function App() {
         </div>
         <div className="text">
           <h2>Steppenwolf</h2>
-          <p>my favourite book</p>
+          <p className = "info">
+            <a className = "author">Julie Yang</a>
+            <time>2023-07-31</time>
+          </p>
+          <p className = "summary">my favourite book</p>
         </div>
       </div>
       <div className="post">
@@ -25,7 +29,11 @@ function App() {
         </div>
         <div className="text">
           <h2>Steppenwolf</h2>
-          <p>my favourite book</p>
+          <p className = "info">
+            <a className = "author">Julie Yang</a>
+            <time>2023-07-31</time>
+          </p>
+          <p className = "summary">my favourite book</p>
         </div>
       </div>
       <div className="post">
@@ -34,7 +42,11 @@ function App() {
         </div>
         <div className="text">
           <h2>Steppenwolf</h2>
-          <p>my favourite book</p>
+          <p className = "info">
+            <a className = "author">Julie Yang</a>
+            <time>2023-07-31</time>
+          </p>
+          <p className = "summary">my favourite book</p>
         </div>
       </div>
     </main>
