@@ -34,7 +34,6 @@ app.post('/register', async (req,res) => {
     const userDoc = await User.findOne({username});
     const passOk = bcrypt.compareSync(password, userDoc.password);
     if (passOk) {
-        //login
         jwt.sign({username, id:userDoc._id}, secret, {}, (err, token) => {
             if (err) throw err;
             res.cookie('token', token).json({
